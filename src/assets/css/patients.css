@@ -1,0 +1,123 @@
+.add_patient_responsible {
+    margin-top: -0.25rem;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #597EF7;
+    justify-content: end;
+    display: flex;
+}
+
+.add_patient_responsible span {
+    margin-right: 0.5rem;
+}
+
+.collapse-box.ant-collapse {
+    border: none !important;
+    background: none !important;
+}
+
+.collapse-box.ant-collapse>.ant-collapse-item {
+    border: none !important;
+}
+
+.collapse-box.ant-collapse .ant-collapse-content {
+    border: none !important;
+}
+
+.collapse-box .ant-collapse-header {
+    align-items: center !important;
+}
+
+.collapse-box .ant-collapse-header-text {
+    font-weight: 700;
+    font-size: 18px;
+    color: #788896;
+}
+
+.collapse-box.ant-collapse .ant-collapse-content>.ant-collapse-content-box {
+    padding: 0 16px 16px;
+}
+
+.collapse-box__text span {
+    padding: 10px 0 9px;
+    display: block;
+    border-bottom: 2px solid #C3CFD9;
+}
+
+.collapse-box .collapse-box .ant-collapse-header {
+    padding: 12px 16px 0;
+    border-radius: 0 !important;
+    border-bottom: 2px solid #C3CFD9;
+}
+
+.collapse-box .collapse-box .ant-collapse-header-text {
+    padding: 10px 0 9px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #293845;
+    display: block;
+}
+
+.collapse-box .collapse-box .ant-collapse-item-active .ant-collapse-header-text {
+    font-weight: 700;
+}
+
+.collapse-box .collapse-box .ant-collapse-item-active .ant-collapse-header {
+    border: none;
+}
+
+.collapse-box__text--type-2 {
+    padding: 25px 25px 24px;
+    background-color: #F2F5F7;
+}
+
+.collapse-box__text--type-2 span {
+    display: block;
+}
+
+.collapse-box__text--type-2 span+span {
+    margin-top: 7px;
+}
+
+.collapse-box__button {
+    font-size: 16px;
+    color: #597ef7;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.collapse-box__button:hover {
+    text-decoration: none;
+}
+
+.collapse-box__footer {
+    padding-bottom: 12px;
+}
+
+.button--type-2 {
+    height: auto;
+    padding: 6px 15px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    background-color: #597ef7;
+    transition: color 200ms ease-in-out, border 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button--type-3 {
+    height: auto;
+    padding: 6px 15px;
+    font-size: 18px;
+    color: #597ef7;
+    border: 1px solid #597ef7;
+    background-color: #fff;
+    transition: color 200ms ease-in-out, border 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button--type-2+.button--type-2,
+.button--type-3+.button--type-3,
+.button--type-2+.button--type-3,
+.button--type-3+.button--type-2 {
+    margin-top: 15px;
+}

@@ -1,0 +1,10 @@
+.copy {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+}
+
+.copy-icon {
+    margin-right: 5px;
+}

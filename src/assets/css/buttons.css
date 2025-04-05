@@ -1,0 +1,38 @@
+.rounded-white-button {
+    border-radius: 50%;
+    border-color: #BFBFBF;
+    border-width: 2px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 5px;
+    border-style: solid;
+}
+
+.reset-button {
+    margin-left: 15px;
+    font-size: 15px;
+    border: none;
+    color: #597ef7;
+}
+
+.default-green-icon {
+    color: #52c41a;
+}
+
+.default-red-icon {
+    color: #f5222d;
+}
+
+.group-accept-button:hover {
+    border-color: #52c41a !important;
+    color: #52c41a !important;
+}
+
+.group-decline-button:hover {
+    border-color: #f5222d !important;
+    color: #f5222d !important;
+}

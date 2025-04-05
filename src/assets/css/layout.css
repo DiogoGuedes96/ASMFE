@@ -1,0 +1,44 @@
+.client_logo {
+    width: 120px;
+    margin: 8px 0px 0px 16px
+}
+
+.pagination_style_default {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.alertMessage {
+    margin-bottom: 8px;
+}
+
+.content_page {
+    margin: 16px;
+}
+
+.label-error-image {
+    color: #FF4D4F;
+}
+
+.padding-left-25{
+    padding-left: 25px;
+}
+
+.icon-permissions {
+    color: #b6b6b6;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.form-row-radio { width: 100%; }
+.form-row-radio + .form-row-radio { margin-top: 10px; }
+.form-row-radio__title-box {
+    margin-bottom: 7px;
+    padding: 14px 25px;
+    border-radius: 6px;
+    background-color: #F2F2F2;
+}
+
+.table-row-light {
+    color: #bfbfbf;
+}
